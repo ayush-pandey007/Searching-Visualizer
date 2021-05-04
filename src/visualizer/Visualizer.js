@@ -7,7 +7,7 @@ var temp1='linearsearch';
 function Visualizer() {
 
     const [mainArr, setMainArr] = useState([]);
-    const [resultmsg, setResultmsg] = useState('');
+    //const [resultmsg, setResultmsg] = useState('');
     const [searchValue, setSearchValue] = useState(250);
     const length=30;
     
@@ -187,7 +187,7 @@ const noOfFunction2=()=>
         <div className="searching-container">
             <div className="array-container">
                 <div className="result-box">
-                    {resultmsg}
+                    
                 </div>
                 {mainArr.map(item=>{
                     return(
